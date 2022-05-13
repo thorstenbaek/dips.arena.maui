@@ -1,0 +1,22 @@
+﻿<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DIPS.Arena.Maui"
+             x:Class="DIPS.Arena.Maui.App">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource PrimaryColor}" />
+                <Setter Property="FontFamily" Value="OpenSansRegular" />
+            </Style>
+
+            <Style TargetType="Button">
+                <Setter Property="TextColor" Value="{DynamicResource SecondaryColor}" />
+                <Setter Property="FontFamily" Value="OpenSansRegular" />
+                <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryColor}" />
+                <Setter Property="Padding" Value="14,10" />
+            </Style>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
